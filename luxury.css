@@ -1,0 +1,236 @@
+ 
+  .main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+ 
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #100e0e;
+    color: #fff;
+    padding: 10px;
+    
+  }
+ 
+  .submenu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .submenu li {
+    margin-right: 15px;
+  }
+  
+ 
+  
+  
+  .product-card__wrapper {
+    display: flex;
+    margin-top: 20px;
+    background-color: #100e0e;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .product-card__media {
+    flex: 0 0 40%;
+  }
+  
+  .product-card__media img {
+    width: 100%;
+    height: auto;
+  }
+  h1{
+    color: #fff;
+  }
+  .test-Time{
+    margin-left: 40px;
+    margin-top: 12pc;
+  }
+  
+  .signin-btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #195497;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .signup-btn{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #195497;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .signin-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .signin-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .signin-btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .signin-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .signup-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .signup-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .signup-btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .signup-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  body {
+    height: 100vh;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    filter: drop-shadow(0 0 10px white);
+  }
+  
+  .snow {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+  }
+
+.watch{
+    width: 370px;
+    height: 370px;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+
+}
+.watch:hover{
+ 
+    transform: scale(1.1);
+    
+
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    gap:2rem ;
+    padding-top:2rem
+}
+
+
+
+
+.watch {
+  margin: 10px;
+  text-align: center;
+  position: relative;
+}
+
+
+.watch img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.watch img:hover {
+  transform: scale(1.1);
+}
+
+
+.watch .watch-title {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.watch .buy-button {
+  position: absolute;
+  bottom: -43px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #195497;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.watch .buy-button:hover {
+  background-color: #195497; 
+}
+
+p{
+  color: #fff;
+}
+.like-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #195497; 
+  position: absolute;
+  top: 10px;
+  right: -5px;
+}
+.like-button:before {
+  content: '\2764'; 
+  display: inline-block;
+  transform: scale(1.5);
+}
